@@ -1,0 +1,40 @@
+title: Warship RPG Project
+email: 1642333289@qq.com
+description: 
+author: Warship RPG Creators
+url: 'https://shino.space'
+baseurl: '/'
+
+# Article settings
+excerpt_separator: <!-- more -->
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+# Social Profiles
+github_username: AquilaZhao
+
+# Build settings
+paginate: 5
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: kramdown
+  syntax_hghlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: text
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+      line_format: '%2i'
