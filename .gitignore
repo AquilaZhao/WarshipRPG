@@ -61,8 +61,3 @@ Temporary Items
 .apdisk
 
 .DS_Store
-
-# bash files
-deploy.sh
-newpost.sh
-urls.xml
